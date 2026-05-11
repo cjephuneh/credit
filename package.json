@@ -1,0 +1,22 @@
+{
+  "name": "yes-credit-platform",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:mobile": "npm run start --workspace mobile",
+    "dev:admin": "npm run dev --workspace admin",
+    "dev:api": "npm run dev --workspace api",
+    "build:admin": "npm run build --workspace admin",
+    "build:api": "npm run build --workspace api"
+  },
+  "devDependencies": {
+    "@rolldown/binding-darwin-x64": "^1.0.0"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  }
+}
