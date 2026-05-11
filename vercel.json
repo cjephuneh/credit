@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm run build --workspace admin",
+  "outputDirectory": "apps/admin/dist",
+  "framework": null,
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
